@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 140, 255);
+}
+
+#main{
+        border-radius: 10px;
+        height: 120px;
+        width: 300px;
+        background-color: aliceblue;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .profile img{
+    height: 60px;
+    border-radius: 50%;
+    padding-right: 10px;
+    }
+
+    #mainn{
+        display: flex;
+       flex-direction: row;
+       height: 60px;
+       justify-content: space-evenly;
+    }
+
+    .details {
+        display: flex;
+        justify-content:space-between;
+       column-gap: 10px;
+       height: 60px;
+    }
+
+    .btns{
+display: flex;
+justify-content: center;
+gap: 8px;
+padding-left: 80px;
+
+    }
+
+     #follow{
+     border: 1px solid rgb(129, 129, 129);       
+        background-color: blue;
+        border: none;
+        border-radius: 5px;
+        padding: 20px;
+        color: white;
+        font-size: 15px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+ #msg{
+    border: 1px solid rgb(129, 129, 129); 
+        background-color: blue;
+        border: none;
+        border-radius: 5px;
+        padding: 20px;
+        color: white;
+        font-size: 15px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+     
+    }
+
+    #msg a{
+        text-decoration: none;
+        color: white;
+    }
+
+   
+
+
+    
